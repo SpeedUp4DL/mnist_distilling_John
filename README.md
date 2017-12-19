@@ -26,7 +26,10 @@ source code  ： Student_Distilling.ipynb
 
 weights file ： frozen_model.pb (teacher model)
 
-super params :  T = 20 （according to paper）， alpha is unkown
+super params :  T = 1 （according to paper）， alpha = 0.1 is unkown
+
+when net at a temperture of 20, the performace is very bad and can't converge !!!But I don't know why paper do this?
+
 <p align="center">
 <img src="https://github.com/SpeedUp4DL/mnist_distilling_John/blob/master/paper.png" alt="Paper " width="600px">
 </p>
