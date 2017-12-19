@@ -27,3 +27,6 @@ source code  ： Student_Distilling.ipynb
 weights file ： frozen_model.pb (teacher model)
 
 super params :  T = 20 （according to paper）， alpha is unkown
+<p align="center">
+<img src="https://github.com/SpeedUp4DL/mnist_distilling_John/blob/master/paper.png" alt="Paper " width="600px">
+</p>
